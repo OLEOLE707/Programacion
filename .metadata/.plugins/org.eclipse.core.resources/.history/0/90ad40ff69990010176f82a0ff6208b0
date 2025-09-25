@@ -1,0 +1,30 @@
+package entradaDato;
+
+import java.util.Scanner;
+
+public class EntradaDato {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		//Numeros
+		byte dato;
+		
+		System.out.print("Mete un dato: ");
+		dato = teclado.nextByte();
+		
+		System.out.println("El dato es: "+dato+"\n");
+		
+		//Texto
+		String nombre;
+		
+		System.out.println("Introduce tu nombre: ");
+		nombre = teclado.nextLine();
+		
+		System.out.println("Tu nombre es: "+nombre);
+		
+		
+
+	}
+
+}

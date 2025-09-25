@@ -1,0 +1,40 @@
+/*
+ * Descripción: Declarar inicializar y mostrar variables
+ * Autor: Firdaus Abouuhafsse
+ * Fecha:23/09/2025
+ */
+
+
+
+package ejercicio3;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		
+		//Defino
+		int num1=0, num2=0;
+		double val1, val2;
+		String nombre, apellidos;
+		
+		
+		//Inicializo
+		val1= 23.9;
+		val2= 52.7;
+		nombre="Firdaus";
+		apellidos="Abouhafsse Mehamed";
+		
+		
+		//Muestro
+		System.out.println("Número uno es: "+num1+" y número dos es: "+num2);
+		
+		System.out.println("La variable val1 es: "+val1+ "\nLa variable val2 es: "+val2);
+		
+		System.out.println("Mi nombre es "+nombre+" y mis apellidos "+apellidos);
+		
+		
+		
+
+	}
+
+}

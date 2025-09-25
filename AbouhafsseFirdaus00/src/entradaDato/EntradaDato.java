@@ -1,0 +1,34 @@
+package entradaDato;
+
+import java.util.Scanner;
+
+public class EntradaDato {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		
+		//Numeros
+		byte edadAlumno;
+		System.out.print("Introduce la edad: ");
+		edadAlumno = teclado.nextByte();
+		System.out.println("La edad del alumno es: "+edadAlumno+"\n");
+		
+		//Texto
+		teclado.nextLine();
+		String nombreAlumo;
+		System.out.print("Introduce el nombre: ");
+		nombreAlumo = teclado.nextLine( );
+		System.out.println("El nombre del alumno es: "+nombreAlumo);
+		
+		//Decimal
+		double alturaAlumno;
+		System.out.print("\nIntroduce la altura: ");
+		alturaAlumno = teclado.nextDouble();
+		System.out.printf("La altura del alumno es: %.2f",alturaAlumno);
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,29 @@
+/*
+ * Descripción: Prueba de tipos de variables
+ * Autor: Firdaus Abouuhafsse
+ * Fecha:23/09/2025
+ */
+
+
+package variables;
+
+public class Tipo_de_variables {
+
+	public static void main(String[] args) {
+		
+		byte edadAlumno; //Declaración
+		edadAlumno=0; //Inicialización
+		
+		byte edadProfesor=0; //Declaración + Inicialización
+		
+		System.out.print("Edad del alumno: "+edadAlumno);
+		
+		double pesoAlumno, alturaAlumno;
+		pesoAlumno= 92.5;
+		alturaAlumno=1.76;
+		
+		System.out.print("Peso del alumno: "+edadAlumno+"Kg y altura: "+alturaAlumno+"m ");
+
+	}
+
+}

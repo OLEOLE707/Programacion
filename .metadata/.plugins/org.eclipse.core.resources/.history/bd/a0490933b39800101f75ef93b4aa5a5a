@@ -1,0 +1,18 @@
+/*
+ * Descripción: Declarar inicializar y mostrar variables
+ * Autor: Firdaus Abouuhafsse
+ * Fecha:23/09/2025
+ */
+
+
+
+package ejercicio3;
+
+public class Ejercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,60 @@
+/*
+ * Descripción: Definir e inicializar variables
+ * Autor: Firdaus Abouuhafsse
+ * Fecha:24/09/2025
+ */
+
+/*
+ * ● byte.
+● short.
+● entero
+● carácter
+● número decimal
+● número flotante
+● cadena de caracteres
+ */
+
+
+
+package ejercicio4;
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		 
+		byte byt = 127;
+		 
+		System.out.println("El valor de la variable de tipo byte (byt) es: "+byt);
+		
+		 
+		short shor = 32767 ;
+		 
+		System.out.println("El valor de la variable de tipo short (shor) es: "+shor);
+		
+		 
+		int num = 2147483647;
+		 
+		System.out.println("El valor de la variable de tipo entero (int) es: "+num);
+		
+		 
+		char cha ='a';
+		 
+		System.out.println("El valor de la variable de tipo caracter (cha) es: "+cha);
+		
+		 
+		double doub = 24.78;
+		 
+		System.out.println("El valor de la variable de tipo numero decimal (doub) es: "+doub);
+		
+		 
+		float floa = 10.56f; 
+		 
+		System.out.println("El valor de la variable de tipo numero flotante (floa) es: "+floa);
+		
+		 
+		String strin = "String";
+		 
+		System.out.println("El valor de la variable de tipo String (strin) es: "+strin); 
+	}
+
+}
