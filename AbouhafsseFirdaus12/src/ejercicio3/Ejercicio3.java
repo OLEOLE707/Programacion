@@ -1,3 +1,11 @@
+/*
+ * Descripción: Imprimir dos strings por pantalla
+ * Autor: Firdaus Abouhafsse
+ * Fecha:23/09/2025
+ */
+
+
+
 package ejercicio3;
 
 public class Ejercicio3 {
@@ -12,7 +20,7 @@ public class Ejercicio3 {
 		
 		System.out.println("La variable num1 es: "+num1+" y la variable num2 es: "+num2);
 		
-		System.out.print("Bienvenido, "+cargo+" "+nombre+".");
+		System.out.print("Bienvenido, "+cargo+" "+nombre+", donde \""+cargo+"\" es el cargo y \""+nombre+"\" es el nombre.");
 	}
 
-}
+}	

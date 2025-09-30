@@ -1,3 +1,10 @@
+/*
+ * Descripción: Imprimir por pantalla diferentes datos string
+ * Autor: Firdaus Abouuhafsse
+ * Fecha:23/09/2025
+ */
+
+
 package ejercicio2;
 
 import java.util.Scanner;
