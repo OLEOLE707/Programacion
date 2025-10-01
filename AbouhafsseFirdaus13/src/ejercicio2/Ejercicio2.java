@@ -1,5 +1,5 @@
 /*
- * Descripción: Pasar de euros a pesetas
+ * Descripción: Pasar de euros a pesetas y de pesetas a euros
  * Autor: Firdaus Abouhafsse
  * Fecha:30/09/2025
  */
