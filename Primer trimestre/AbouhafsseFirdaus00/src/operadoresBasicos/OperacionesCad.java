@@ -8,7 +8,9 @@ public class OperacionesCad {
 		Scanner scanner = new Scanner(System.in);
 		
 		String variable;
+		
 		int longitud;
+		
 		
 		System.out.print("Introduce una cadena: ");
 		variable=scanner.nextLine();

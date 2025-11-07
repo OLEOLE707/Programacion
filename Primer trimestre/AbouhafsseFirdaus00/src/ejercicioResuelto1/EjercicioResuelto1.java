@@ -21,7 +21,7 @@ public class EjercicioResuelto1 {
 		System.out.println("Palo 3: "+palo);
 
 		palo=PalosEnum.ESPADAS;
-		System.out.println("Palo 4	: "+palo);
+		System.out.println("Palo 4: "+palo);
 		
 
 	}
