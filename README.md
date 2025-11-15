@@ -1,1 +1,3 @@
-En este repositorio estaran subidas mis tareas de **_Programación_** según el trimestre y número de tarea.
+Repositorio con ejercicios, prácticas y ejemplos de programación en distintos lenguajes.
+
+Incluye código básico, actividades y materiales para reforzar conceptos fundamentales divididos en diferentes temas.
