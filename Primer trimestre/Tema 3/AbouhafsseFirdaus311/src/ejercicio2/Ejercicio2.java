@@ -13,11 +13,13 @@ public class Ejercicio2 {
 		 
 		 
 		 for(int i=1; i<(matriz.length+1);i++) {
+			 
 			 for(int j=1; j<(matriz.length+1);j++) {
 				 matriz[i-1][j-1]=i*j;
 			 } 
 		 }
-
+		 
+		 //Para mostrar
 		 for(int i=1; i<(matriz.length+1);i++) {
 			 for(int j=1; j<(matriz.length+1);j++) {
 				 System.out.print(matriz[i-1][j-1]+"\t");

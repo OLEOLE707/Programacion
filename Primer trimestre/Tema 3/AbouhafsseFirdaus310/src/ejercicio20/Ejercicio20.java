@@ -1,5 +1,4 @@
-/*
- * Nombre: Firdaus Abouhafsse Mehamed
+ /* Nombre: Firdaus Abouhafsse Mehamed
  * Fecha: 31/10/2025
  * Contenido: Crea un programa que cree un array de tamaño 1000 y lo rellene con valores enteros
  * aleatorios entre 0 y 99. Luego pedirá por teclado un valor N y mostrar si existe y cuantas veces
@@ -26,6 +25,7 @@ public class Ejercicio20 {
 		
 		for(int i=0 ;i<array.length; i++) {
 			array[i]=(int)(1+Math.random()*100);
+			
 			if(array[i]==n) {
 				longitud++;	
 			}

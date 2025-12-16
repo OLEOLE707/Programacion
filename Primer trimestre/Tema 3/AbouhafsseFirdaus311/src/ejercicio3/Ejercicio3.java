@@ -26,19 +26,20 @@ public class Ejercicio3 {
 		
 		matriz= new int [n][m];
 		
-		
+		//Filas
 		 for(int i=0; i<n;i++) {
+			 //Columnas
 			 for(int j=0; j<m;j++) {
-				 
 				 System.out.print("Introduce el numero de la posicion "+i+"x"+j+" :");
 				 matriz[i][j]=scanner.nextInt();
-				 
-				
 			 } 
 		 }
+		 
+		 
 		 System.out.println("\n");
 		 
 		 for(int i=0; i<n;i++) {
+			 
 			 for(int j=0; j<m;j++) {
 				 
 				 if(matriz[i][j]>0) {

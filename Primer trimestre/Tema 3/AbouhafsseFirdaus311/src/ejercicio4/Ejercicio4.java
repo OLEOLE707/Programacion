@@ -31,6 +31,7 @@ public class Ejercicio4 {
 		 
 		 for(int i=0; i<4;i++) {
 			 System.out.println("\nAlumno "+(i+1));
+			 
 			 for(int j=0; j<5;j++) {
 				 if(maximo<notas[i][j]) {
 					 maximo=notas[i][j];

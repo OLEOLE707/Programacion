@@ -21,7 +21,6 @@ public class Ejercicio1 {
 		texto=scanner.nextLine();
 		
 		
-		
 		for(int i=0; i<texto.length();i++) {
 			//Leemos cada caracter
 			caracter=texto.charAt(i);

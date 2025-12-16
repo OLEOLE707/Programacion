@@ -21,10 +21,7 @@ public class Ejercicio5 {
 		texto=texto.replaceAll(" ", "");
 		
 		for(int i=texto.length()-1; i>=0;i--) {
-			
-			textoAlreves=textoAlreves+texto.charAt(i);
-			
-
+			textoAlreves=textoAlreves+texto.charAt(i);		
 		}
 		
 		if(texto.compareToIgnoreCase(textoAlreves)==0) {

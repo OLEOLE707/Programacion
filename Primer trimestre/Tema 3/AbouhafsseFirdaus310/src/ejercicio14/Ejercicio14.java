@@ -13,6 +13,7 @@ public class Ejercicio14 {
 	public static void main(String[] args) {
 		
 		int contador=0, valor=1;
+		
 		int[] array=new int[55];
 		
 		while(contador<55) {
