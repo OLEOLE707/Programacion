@@ -19,10 +19,11 @@ public class Ejercicio18 {
 	}
 	
 	
+	
   
     public static boolean dniValido(String dni) { //Para comprobar que sea un dígito (0-9) 8 veces
     	
-        return dni.matches("\\d{8}");
+        return dni.matches("[0-9]{8}");
     }
 	
 	

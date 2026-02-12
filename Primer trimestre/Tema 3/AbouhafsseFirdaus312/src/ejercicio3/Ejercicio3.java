@@ -29,6 +29,7 @@ public class Ejercicio3 {
 		
 		resultado=resultado.toUpperCase();
 		
+		
 		System.out.println("Resultado: "+resultado);
 
 

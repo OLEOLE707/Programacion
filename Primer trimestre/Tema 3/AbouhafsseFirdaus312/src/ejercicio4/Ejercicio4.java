@@ -1,4 +1,4 @@
-/*
+	/*
 * Nombre: Firdaus Abouhafsse Mehamed
 * Fecha: 07/11/2025
 * Contenido: Mostrar por pantalla cuantas vocales de cada tipo hay en una frase introducida por teclado sin distinguir mayusculas o minusculas;

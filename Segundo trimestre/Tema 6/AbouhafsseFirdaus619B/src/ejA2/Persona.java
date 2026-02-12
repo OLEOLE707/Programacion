@@ -1,0 +1,26 @@
+/*
+* Nombre: Firdaus Abouhafsse Mehamed
+* Fecha: 14/01/2026
+* Contenido: Crea una clase Persona
+*
+*/
+package ejA2;
+
+public class Persona {
+
+	// Apartado A
+	String nombre;
+	String apellidos;
+	String dni;
+	int edad;
+	
+	
+	//Apartado B
+	public Persona(String dni, String nombre, String apellidos, int edad) {
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellidos = apellidos;
+		this.edad = edad;
+	}
+
+}
